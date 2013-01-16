@@ -1,9 +1,9 @@
 {
     "name":"hello extension",
-    "version":"1.3.1",
+    "version":"10.1.1",
     "manifest_version":2,
     "converted_from_user_script":true,
-    "description":"帮您订票的小助手 by 木鱼 :-)",
+    "description":"test",
     "key":"7k6gnXVACvUPU2DfslJgSrWJTHqIg5uwd+Kgl/5zSg==",
     "name":"12306 订票助手 for Chrome",
     "permissions":[ "http://www.baidu.com/", "notifications" ],
@@ -14,7 +14,7 @@
             "exclude_matches":[  ],
             "include_globs":[  ],
             "js":[ "jquery.js","hello.js"],
-            "matches":[ "http://www.baidu.com/"],
+            "matches": [ "http://dynamic.12306.cn/otsweb/*", "https://dynamic.12306.cn/otsweb/*", "https://www.12306.cn/*" ],
             "run_at":"document_idle"
         }
     ]
